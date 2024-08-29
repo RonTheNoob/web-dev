@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    padding: 0px;
+  }
+
+
+.restaurant {
+    background-color: #a80309;
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+p#restaurant {
+    margin-left: 300px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+img#logo {
+    width : 300px;
+    height: auto;
+}
+
+nav{
+    display : flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: large;
+}
+
+nav a {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #333; 
+    background-color: #f0f0f0; 
+    border: 2px solid #a69999;
+    border-radius: 8px; 
+}
+
+#food {
+    border-top: 2px solid black; 
+    padding-top: 20px;
+    margin: 20px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    
+}
+
+.details-container {
+    border: 2px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: beige;
+    padding-bottom: 195px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+.c2 {
+    position: absolute;
+    top: 175px;
+    
+}
+
+.content {
+    float: left
+}
+
+#about-us {
+    /* background-color: bisque; (for checking alignment)*/
+    margin-left : 320px;
+    text-align: justify;
+    padding-right: 15px;
+    font-size: 19px;
+}
+
+#best-sellers {
+    /* background-color: bisque; (for checking alignment)*/
+    margin-left : 300px;
+}
+
+li {
+    font-size: large;
+}
+
+footer {
+    margin-top: 20px;
+    background-color:rgb(31, 40, 35);
+    color: whitesmoke;
+    font-size: small;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+    margin-left: 910px;
+}
