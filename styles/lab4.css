@@ -1,3 +1,4 @@
+/* The default is light mode */
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 20px;
@@ -6,8 +7,18 @@ body {
     padding: 0 ;
 }
 
+.top {
+    margin: 10px;
+    padding: 5px;
+}
+
 header {
     text-align: center;
+}
+
+.modes {
+    margin-left: 30px;
+    padding-bottom: 10px;
 }
 
 nav {
@@ -71,4 +82,44 @@ footer {
     text-align: center;
     background-color: #dddddd;
     padding: 10px;
+}
+
+
+/* THIS IS FOR DARK MODE OF THE WEBSITE */
+body.dark-mode {
+    background-color: #252525;
+    color: white;
+    margin: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+body.dark-mode > .top {
+    padding: 5px;
+    margin: 10px;
+    background-color: #616161;
+}
+
+body.dark-mode > nav {
+    background-color: #112233;
+}
+
+body.dark-mode .mcm {
+    background-color: #616161;
+}
+
+body.dark-mode .cea {
+    background-color: #616161;
+}
+
+body.dark-mode .about-me {
+    background-color: #616161;
+}
+
+body.dark-mode .favorite-food {
+    background-color: #616161;
+}
+
+body.dark-mode > footer {
+    background-color: #616161;
 }

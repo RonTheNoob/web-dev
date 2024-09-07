@@ -7,9 +7,18 @@
     <link rel = "stylesheet" href = "styles/lab4.css">
 </head>
 <body>
-    <header>
-        <h1>A Complete CSS Website</h1>
-    </header>
+    <div class="top">
+        <header>
+            <h1>A Complete CSS Website</h1>
+        </header>
+        <div class = "modes">
+            <input class = "light" type = "radio" id = "light" name = "mode" checked>
+            <label for = "light">Light Mode</label>
+            <br>
+            <input class = "dark" type="radio" id = "dark" name = "mode">
+            <label for = "dark">Dark Mode</label>
+        </div>
+    </div>
     <nav>
         <a href="#">CPE107</a>
         <a href="#">CPE107L</a>
@@ -17,7 +26,7 @@
     </nav>
     <main>
         <div class = "first">
-            <div class = "mcm">
+            <div class = "mcm" id = "mcm">
                 <h2>Malayan Colleges Mindanao</h2>
                 <h4>Excellence and Relevance</h4>
                 <img src = "https://mcm.edu.ph/wp-content/uploads/2022/04/GARDEN-min-scaled-1-1024x683.jpeg">
@@ -54,5 +63,7 @@
         <h5>Laboratory Task 4 - Advanced CSS Styling</h5>
         <h5>CPE107L Software Design Laboratory</h5>
     </footer>
+
+    <script src = "js/lab4.js"></script>
 </body> 
 </html>
