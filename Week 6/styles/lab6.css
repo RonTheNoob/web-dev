@@ -1,0 +1,15 @@
+div.shapes {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+  }
+
+  div.demo {
+    width: 405px;
+  }
+
+  div.field {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+  }

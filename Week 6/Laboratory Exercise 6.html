@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratory Exercise - BORROMEO</title>
+    <link rel="stylesheet" href="styles/lab6.css">
+</head>
+<body>
+    <div class="shapes">
+        <div class="demo circle">
+          <h1>Circle</h1>
+          <div class="field">
+            <label for="circle_radius">Radius</label>
+            <input
+              type="number"
+              id="circle_radius"
+              name="circle_radius"
+              min="1"
+              value="1"
+            />
+          </div>
+          <div class="field">
+            <label for="circle_area">Area</label>
+            <input type="number" id="circle_area" name="circle_area" readonly />
+          </div>
+          <div class="field">
+            <label for="circle_circumference">Circumference</label>
+            <input
+              type="number"
+              id="circle_circumference"
+              name="circle_circumference"
+              readonly
+            />
+          </div>
+        </div>
+  
+        <div class="demo rectangle">
+          <h1>Rectangle</h1>
+          <div class="field">
+            <label for="rectangle_height">Height</label>
+            <input
+              type="number"
+              id="rectangle_height"
+              name="rectangle_height"
+              min="1"
+              value="1"
+            />
+          </div>
+          <div class="field">
+            <label for="rectangle_width">Width</label>
+            <input
+              type="number"
+              id="rectangle_width"
+              name="rectangle_width"
+              min="1"
+              value="1"
+            />
+          </div>
+          <div class="field">
+            <label for="rectangle_area">Area</label>
+            <input
+              type="number"
+              id="rectangle_area"
+              name="rectangle_area"
+              readonly
+            />
+          </div>
+          <div class="field">
+            <label for="rectangle_perimeter">Perimeter</label>
+            <input
+              type="number"
+              id="rectangle_perimeter"
+              name="rectangle_perimeter"
+              readonly
+            />
+          </div>
+        </div>
+        <div class="demo triangular-prism">
+            <h1>Equilateral Triangular Prism</h1>
+            <div class="field">
+                <label for="triangular-prism_side">Side Length</label>
+                <input
+                    type="number"
+                    id="triangular-prism_side"
+                    name="triangular-prism_side"
+                    min="1"
+                    value="1"
+                />
+            </div>
+            <div class="field">
+                <label for="triangular-prism_height">Height</label>
+                <input
+                  type="number"
+                  id="triangular-prism_height"
+                  name="triangular-prism_height"
+                  min="1"
+                  value="1"
+                />
+            </div>
+            <div class="field">
+              <label for="triangular-prism_surface-area">Surface Area</label>
+              <input
+                type="number"
+                id="triangular-prism_surface-area"
+                name="triangular-prism_surface-area"
+                readonly
+              />
+            </div>
+            <div class="field">
+                <label for="triangular-prism_volume">Volume</label>
+                <input
+                  type="number"
+                  id="triangular-prism_volume"
+                  name="triangular-prism_volume"
+                  readonly
+                />
+              </div>
+          </div>
+      </div>
+      <script src="js/scripts.js"></script>
+</body>
+</html>
